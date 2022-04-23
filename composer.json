@@ -1,37 +1,37 @@
 {
-name: "quynhnga4200/mypackage1",
-description: "mypackage1"
-keywords: [
+"name": "quynhnga4200/mypackage1",
+"description": "mypackage1"
+"keywords": [
 mypackage1
 ],
-authors: [
+"authors": [
 {
-name: "quynhnga4200",
-email: "20211TT4200@mail.tdc.edu.vn"
+"name": "quynhnga4200",
+"email": "20211TT4200@mail.tdc.edu.vn"
 }
 ],
-license: "MIT",
-require: {
+"license": "MIT",
+"require": {
 },
-require-dev: {
+"require-dev": {
 },
-autoload: {
-classmap: [
+"autoload": {
+"classmap": [
 database
 ],
-psr-4: {
+"psr-4": {
 Quynhnga4200\\Mypackage1\\: "src/"
 }
 },
-autoload-dev: {
-classmap: [
+"autoload-dev": {
+"classmap": [
 
 ]
 },
-scripts: {
+"scripts": {
 },
-minimum-stability: "dev",
-config: {
-preferred-install: "dist"
+"minimum-stability": "dev",
+"config": {
+"preferred-install": "dist"
 }
 }
