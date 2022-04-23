@@ -1,0 +1,37 @@
+{
+name: "quynhnga4200/mypackage1",
+description: "mypackage1"
+keywords: [
+mypackage1
+],
+authors: [
+{
+name: "quynhnga4200",
+email: "20211TT4200@mail.tdc.edu.vn"
+}
+],
+license: "MIT",
+require: {
+},
+require-dev: {
+},
+autoload: {
+classmap: [
+database
+],
+psr-4: {
+Quynhnga4200\\Mypackage1\\: "src/"
+}
+},
+autoload-dev: {
+classmap: [
+
+]
+},
+scripts: {
+},
+minimum-stability: "dev",
+config: {
+preferred-install: "dist"
+}
+}
